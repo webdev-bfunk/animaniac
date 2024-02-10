@@ -132,7 +132,7 @@ const LogoAnimation = () => {
       initial="hidden" 
       animate="show" 
       className="md:hidden flex">
-        <Link href="/" className="flex ">
+        <Link href="/" className="flex mx-4">
         <motion.h1 variants={gridVariants} 
         whileInView={{ 
           rotate: [0, 360, 0],  
