@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-
+import Link from "next/link";
+import { BiArrowBack } from "react-icons/bi";
 const About = () => {
   return (
     <div className="w-full max-w-5xl">
@@ -42,12 +43,14 @@ const About = () => {
           design and robust development.
         </p> */}
         <div className="w-full flex items-center justify-center">
-          <button
-                type="submit"
-                className="text-black border-1 mt-2 hover:scale-95 hover:bg-gray-100 border px-2 py-1 rounded-lg bg-gray-200 border-gray-500  headText tracking-wider"
-              >
-                Learn more
-              </button>
+        <button
+        type="submit"
+        className="text-black border-1 mb-6 hover:scale-95 hover:bg-gray-100 border px-2 py-1 rounded-lg mx-4 w-1/2 md:w-1/4 mt-6 border-gray-500  headText tracking-wider flex items-center justify-center gap-2"
+      >
+        <Link href="/about" className="headText flex items-center justify-center gap-2">
+          Learn More
+        </Link>
+      </button>
         </div>
       </div>
       <div>

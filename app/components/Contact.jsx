@@ -35,7 +35,7 @@ const Contact = () => {
                 type="password"
                 id="password"
                 placeholder='Password'
-                className=" readingText tracking-wider bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                className="readingText tracking-wider bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required
               />
             </div>
@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
         <div className="w-full md:w-3/4 flex justify-center items-center">
           <Image
-            src="/vecteezy3.png"
+            src="/vecteezy5.png"
             alt="me"
             width={300}
             height={300}

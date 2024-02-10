@@ -127,3 +127,7 @@ nav {
     font-family: Libre;
     font-weight: 600;
   }
+
+  .shapeOutside {
+    shape-outside: circle(50%);
+  }

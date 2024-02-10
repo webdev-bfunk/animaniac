@@ -45,7 +45,7 @@ const LogoAnimation = () => {
           transition: { 
             duration: 1.8, ease: easeInOut }, 
             borderRadius: ["50%", "25%", "50%", "100%"], 
-            scale: [1, .5, .2, .1, 1, 1.5, .5], x: [50, 100, 0], opacity: [0, .2, .5, 1]  }}  className="text-white text-8xl -ml-8">R</motion.h1>
+            scale: [1, .5, .2, .1, 1, 1.5, .5], x: [50, 100, 0], opacity: [0, .2, .5, 1]  }}  className="text-white text-8xl">R</motion.h1>
         <motion.h1 variants={gridVariants} 
         whileInView={{ 
           rotate: [0, 360, 0],  
@@ -132,7 +132,7 @@ const LogoAnimation = () => {
       initial="hidden" 
       animate="show" 
       className="md:hidden flex">
-        <Link href="/" className="flex mx-10">
+        <Link href="/" className="flex ">
         <motion.h1 variants={gridVariants} 
         whileInView={{ 
           rotate: [0, 360, 0],  
